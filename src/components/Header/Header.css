@@ -1,0 +1,26 @@
+.navbar{
+  padding: 20px;
+}
+.navbar a{
+  text-decoration: none;
+  margin-left: 19px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #485768;
+}
+.navbar a:hover{
+  color: orange;
+}
+
+.navbar button{
+  background-color: #6347F9;
+  color: #ffff;
+  border: 0;
+  padding: 6px 9px ;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.navbar button:hover{
+  background-color: #9a47f9ec;
+}

@@ -1,0 +1,41 @@
+.card{
+  width: 340px;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  /* box-shadow:  5px 4px 10px rgb(133, 130, 130); */
+}
+
+
+.card img{
+  width: 310px;
+  border-radius: 10px;
+  margin: auto 0;
+}
+
+.card h6{
+  color: gray;
+}
+.book-room-btn{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.card button{
+  background-color: #6347F9;
+  color: #ffff;
+  border: 0;
+  padding: 10px 19px ;
+  border-radius: 18px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.card button:hover{
+  background-color: #9a47f9ec;
+}
+.icon{
+  color: gray;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+} 
