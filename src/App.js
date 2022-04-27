@@ -10,6 +10,7 @@ import Services from "./components/Services/Services";
 import Pricing from "./components/Pricing/Pricing";
 import SignUp from "./components/Header/SignUp/SignUp";
 import RequireAuth from "./components/RequreAuth/RequireAuth";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path="/login" element={<Login></Login>} ></Route>
           <Route path="/signup" element={<SignUp></SignUp>} ></Route>
         </Routes>
+        <Footer></Footer>
 
     </Fragment>
   );
